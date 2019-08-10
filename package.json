@@ -1,0 +1,29 @@
+{
+  "name": "navi-backend",
+  "version": "1.0.0",
+  "description": "Backend for Android navigation app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Robert Ionita Viorel",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.1",
+    "mongoose": "^5.0.7",
+    "morgan": "^1.9.0",
+    "mysql2": "^1.5.3",
+    "node-cron": "^1.2.1",
+    "nodemon": "^1.14.11",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "sequelize": "^4.37.4",
+    "socket.io": "^2.0.4",
+    "utf8-length": "0.0.1"
+  }
+}
